@@ -1,0 +1,32 @@
+{
+	"name": "isp-poc-users",
+    "version": "1.0.0",
+    "description": "User preferences access by NodeJs",
+    "main": "app.js",
+    "private": true,
+    "scripts": {
+    	"start": "node app.js",
+        "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+    },
+    "repository": "",
+    "keywords": [
+        "node.js",
+        "eclipse",
+        "nodeclipse"
+    ],
+    "author": "",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "dependencies": {
+        "express": "~4.10.6",
+        "cloudant": "latest",
+        "debug": "~2.1.1",
+        "deasync": "latest",
+        "async": "latest",
+        "request": "^2.51.0",
+        "isstream": "~0.1.2"
+	},
+	"engines": {
+	    "node": "4.2.4"
+	}
+}
